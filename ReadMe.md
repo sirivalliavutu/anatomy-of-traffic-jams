@@ -3,7 +3,7 @@
 ## Master Dataset Access
 Due to GitHub file size limits, the full master dataset is hosted on Google Drive:
 
-🔗 **[Download traffic_data_clean.csv](https://drive.google.com/file/d/1GYBF3W_8RmMJT429qfFznQu-akPWj_3s/view?usp=sharing)**
+🔗 **[Download traffic_data_clean.csv](https://drive.google.com/file/d/1GYBF3W_8RmMJT429qfFznQu-akPWj_3s/view?usp=drive_link)**
 
 ---
 

@@ -18,7 +18,7 @@ The project analyzes congestion levels, traffic volume, and road occupancy to un
 
 ## 📊 Dataset
 
-The project uses the **MMTD Madrid Fixed-Sensor Traffic Dataset**.
+The project uses the **MMTD Madrid Fixed-Sensor Traffic Dataset**, covering traffic observations in Madrid, Spain, from August 1–31, 2024.
 
 | Attribute | Details |
 |---|---|
@@ -29,6 +29,18 @@ The project uses the **MMTD Madrid Fixed-Sensor Traffic Dataset**.
 | Sampling frequency | Every 15 minutes |
 | Cleaned dataset size | 8,273,280 rows × 9 columns |
 
+### Master Dataset Access
+
+Due to GitHub file-size limits, the full cleaned dataset is hosted on Google Drive.
+
+**[📥 Download traffic_data_clean.csv](https://drive.google.com/file/d/1GYBF3W_8RmMJT429qfFznQu-akPWj_3s/view?usp=drive_link)**
+
+### Files Included in Git
+
+- `traffic_sample.csv` — Validation sample dataset.
+- `data_dictionary.xlsx` — Data dictionary and variable definitions.
+- `data_cleaning_notes.docx` — Preprocessing and data quality documentation.
+
 ### Key Variables
 
 - **Timestamp:** Date and time of each observation.
@@ -36,9 +48,9 @@ The project uses the **MMTD Madrid Fixed-Sensor Traffic Dataset**.
 - **Congestion level (`conges_levl`):** Recorded congestion indicator.
 - **Volume (`volume`):** Recorded traffic volume indicator.
 - **Occupancy (`occ`):** Recorded road occupancy indicator.
-- **Time-based attributes:** Hour and day of the week, used to study temporal patterns.
+- **Time-based attributes:** Hour and day of the week, used to analyze temporal patterns.
 
-*Note: Congestion level, traffic volume, and occupancy are distinct indicators. Congestion level should not be interpreted as vehicle speed.*
+*Note: Congestion level, volume, and occupancy are distinct traffic indicators. Congestion level should not be interpreted as vehicle speed.*
 
 ## 🧹 Data Preparation
 

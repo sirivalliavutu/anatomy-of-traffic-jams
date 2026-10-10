@@ -1,4 +1,4 @@
-# P3 — Tableau Analysis and Findings
+#Tableau Analysis and Findings
 
 ## 1. Project Overview
 
